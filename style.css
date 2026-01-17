@@ -1,0 +1,446 @@
+body {
+        color: #434242;
+        margin: 0px;
+        padding: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+        background: #f8f8f8;
+    }
+
+    /* navbar */
+    nav {
+        width: 100%;
+        height: 50px;
+        background: white;
+    }
+
+    #logo {
+        background-color: #e60012;
+        width: 150px;
+        height: 50px;
+        text-align: center;
+        box-sizing: border-box;
+        padding: 12px;
+        float: left;
+    }
+
+    .navElements {
+        float: right;
+    }
+
+    ul {
+        display: inline-block;
+        text-align: center;
+        height: 50px;
+        margin: 0;
+    }
+
+    li {
+        list-style: none;
+        display: inline-block;
+        align-items: center;
+        margin: 10px;
+        font-weight: bold;
+    }
+
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    a:hover {
+        color: #be0010;
+    }
+
+    .info {
+        text-align: center;
+        height: 50px;
+        background-color: white;
+    }
+
+    #redElement {
+        height: 37px;
+        color: #e60012;
+        border-bottom: #e60012 solid 5px;
+    }
+
+    li img,
+    .shipping img,
+    .icn {
+        vertical-align: middle;
+        height: 30px;
+        transition: 0.3s ease;
+    }
+
+    li img:hover,
+    .shipping img:hover,
+    .icn:hover {
+        transform: rotate(45deg);
+    }
+
+    /* Shipping  */
+    .shipping {
+        background: #f8f8f8;
+        height: 40px;
+        text-align: center;
+        margin: auto;
+        padding-top: 10px;
+    }
+
+    hr {
+        margin: 0;
+        color: #efefef;
+    }
+
+    /* the game  */
+    .myGame {
+        padding: 30px;
+        background: #d6f0fa;
+        text-align: center;
+        height: 580px;
+    }
+
+    .mygame2 {
+        padding: 30px;
+        background: white;
+        border-radius: 10px;
+        display: inline-block;
+        width: 80%;
+        text-align: left;
+    }
+
+    .fade {
+        opacity: 50%;
+    }
+
+    .gameContent {
+        margin-top: 15px;
+        overflow: hidden;
+        clear: both;
+    }
+
+    .part1 {
+        float: left;
+        width: 55%;
+    }
+    .part1 img{
+        cursor: pointer;
+        transition: 0.3s ease;
+    }
+    .pics{
+        height:70px;
+        margin-top: 20px;
+    }
+
+    .pics img{
+        margin-right:12px;
+        width:95px;
+        height: 50px;
+        float: left;
+        border-radius: 5px;
+    }
+    .part1 img:hover{
+        transform: scale(0.9);
+    }
+    .pics img:first-child{
+        border-bottom: #e60012 3px solid;
+    }
+
+    .part2 {
+        float: right;
+        width: 40%;
+    }
+
+    .switch {
+        border-bottom: #e60012 solid 3px;
+    }
+
+    .money {
+        overflow: hidden;
+    }
+
+    .money h1 {
+        float: left;
+        margin: 0;
+    }
+
+    .money img {
+        float: right;
+        margin-top: 5px;
+    }
+
+    .red-btn {
+        background: #e60012;
+        height: 60px;
+        text-align: center;
+        color: white;
+        box-sizing: border-box;
+        padding-top: 15px;
+        font-weight: bold;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .red-btn:hover {
+        transform: translateY(-10px);
+        transition-duration: 1s;
+    }
+
+    /* Sections */
+    .sec2,
+    .sec3,
+    .sec4,
+    .sec5,
+    .sec6 {
+        clear: both;
+        padding-inline: 150px;
+        padding-top: 80px;
+        overflow: hidden;
+    }
+
+    .sec2-1,
+    .sec3-1,
+    .sec5-1 {
+        float: left;
+        width: 45%;
+        text-align: left;
+    }
+
+    .sec2-2,
+    .sec3-2,
+    .sec5-2 {
+        float: right;
+        width: 48%;
+    }
+
+    .sec2-2 img,
+    .sec5-2 img {
+        width: 550px;
+    }
+
+    #readMore {
+        color: #e60012;
+        font-weight: bolder;
+    }
+
+    .sec3 {
+        padding-inline: 0;
+
+    }
+
+    .darkbg {
+        background: #efefef;
+        text-align: center;
+        border-radius: 5px;
+        height: fit-content;
+        padding-bottom: 50px;
+        overflow: hidden;
+
+    }
+
+    .card {
+        display: inline-block;
+        margin-right: 15px;
+        vertical-align: top;
+        transition: 0.3s ease;
+    }
+
+    .card img {
+        width: 100%;
+        display: block;
+        margin: 10px auto;
+        border-radius: 5px;
+    }
+
+    .esrb {
+        width: 400px;
+        border: white 25px solid;
+    }
+
+    .red_underlined {
+        height: 15px;
+        color: #e60012;
+        border-bottom: #e60012 2px solid;
+        font-weight: bold;
+    }
+
+    .tbl {
+        width: 100%;
+        text-align: left;
+
+    }
+
+    th,
+    td {
+        border-bottom: 2px solid #ddd;
+        padding: 20px;
+    }
+
+    .tbl th {
+        width: 35%;
+
+    }
+
+    .sec5-1 {
+        margin-left: 50px;
+    }
+
+    .sec5 .darkbg {
+        padding-bottom: 0px;
+    }
+
+    .sec5-2 img {
+        padding-top: 50px;
+    }
+
+    .red-switch {
+        height: 120px;
+    }
+
+    .game {
+        clear: both;
+        display: inline-block;
+        text-align: left;
+        border: #ddd 2px solid;
+        margin: 20px;
+        border-radius: 5px;
+        padding-bottom: 15px;
+        width: 250px;
+        overflow: hidden;
+        cursor: pointer;
+        transition: 0.3s ease;
+    }
+
+    .card:hover,
+    .game:hover {
+        transform: scale(1.1);
+
+    }
+
+    .game-img {
+        height: 150px;
+        width: 250px;
+    }
+
+    .game h4,
+    .game span,
+    .flag {
+        margin-left: 15px;
+        width: fit-content;
+
+    }
+
+    .game span {
+        display: inline-block;
+        float: left;
+        border-bottom: #e60012 2px solid;
+    }
+
+    .game .icn {
+        float: right;
+        margin-right: 15px;
+    }
+
+    .disc {
+        display: inline-block;
+        padding: 10px;
+        padding-bottom: 0;
+    }
+
+    .flag {
+        color: white;
+        background: #e60012;
+        width: 50px;
+        text-align: center;
+        border-radius: 5px;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        padding: 5px;
+    }
+
+    .sec6 p {
+        text-align: left;
+        width: 75%;
+        font-size: small;
+    }
+
+    .social {
+        background-color: #e60012;
+        width: 100%;
+        height: 100px;
+        padding: 35px;
+        box-sizing: border-box;
+        margin: 0;
+        text-align: right;
+    }
+
+    .social .part1 {
+        width: 150px;
+
+    }
+
+    .social .part2 a {
+        margin-right: 20px;
+    }
+
+    .links {
+        text-align: center;
+        padding: 40px;
+    }
+
+    .link {
+        display: inline-block;
+        vertical-align: top;
+        text-align: left;
+        width: 170px;
+        padding: 0 20px;
+        border-left: 2px solid #ddd;
+    }
+
+    .link:first-child,
+    .link:nth-child(5) {
+        border: 0;
+    }
+
+    .link .link {
+        border-left: 2px solid #ddd;
+    }
+
+
+    .link a {
+        display: inline-block;
+        margin-bottom: 8px;
+        font-size: 14px;
+        font-weight: bold;
+        color: #e60012;
+        text-decoration: none;
+    }
+
+    .link a:hover {
+        text-decoration: underline;
+    }
+
+    .lastsec {
+        float: right;
+        padding: 50px;
+    }
+
+    .foot {
+        clear: both;
+        height: 90px;
+        color: white;
+        background-color: #242424;
+        font-size: x-small;
+        padding: 30px;
+        box-sizing: border-box;
+        text-align: center;
+    }
+
+    .foot .icn {
+        width: 35px;
+        height: 20px;
+    }
+
+    .foot .part2 {
+        margin: 0;
+    }
+
