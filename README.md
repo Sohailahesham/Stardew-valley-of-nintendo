@@ -48,15 +48,3 @@ Stardew-valley-of-nintendo/
 2. Open the project folder.
 
 3. Open `index.html` in your browser.
-
----
-
-## 📌 Deployment
-
-The page can be deployed using **GitHub Pages** by enabling Pages in repo settings and selecting the `main` branch root.
-
----
-
-## 💬 Feedback & Contributions
-
-Feel free to open issues or suggest improvements — for example, adding responsive design or enhancing styles.
