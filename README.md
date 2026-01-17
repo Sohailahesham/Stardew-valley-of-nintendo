@@ -7,13 +7,6 @@ This project demonstrates a simple, styled static website as part of my web deve
 
 ---
 
-## 🚀 Live Demo
-
-You can view the live version of this landing page via **GitHub Pages** (once deployed):  
-🔗https://stardew-valley-of-nintendo.netlify.app/
-
----
-
 ## 📌 About This Project
 
 This repository contains:  
